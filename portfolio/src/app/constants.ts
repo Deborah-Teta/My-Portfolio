@@ -31,7 +31,7 @@ export const PROJECTS: Project[] = [
   {
     title: "Portfolio Website",
     description: "A personal portfolio website design to showcase skills and projects.",
-    link: "https://portifolio-ten-lilac-12.vercel.app/",
+    link: "https://my-portfolio-tau-lime.vercel.app/",
     tags: ["HTML5", "JavaScript", "Tailwind CSS"],
     category: "Web App",
     image: "/photo/portifolio.png"
