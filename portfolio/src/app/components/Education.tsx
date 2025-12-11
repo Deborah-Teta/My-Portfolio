@@ -14,7 +14,7 @@ function Education () {
         <div className="max-w-3xl mx-auto space-y-8">
           {EDUCATION.map((edu, index) => (
             <div key={index} className="relative pl-8 md:pl-0">
-               {/* Timeline Line could go here */}
+               
               <div className="bg-slate-900 p-8 rounded-2xl shadow-sm border border-slate-800 hover:border-violet-500/50 transition flex flex-col md:flex-row gap-6 items-start group">
                 <div className={`p-4 rounded-xl shrink-0 border border-white/5 ${index === 0 ? 'bg-violet-900/20 text-violet-400' : 'bg-fuchsia-900/20 text-fuchsia-400'}`}>
                   {index === 0 ? <GraduationCap size={32} /> : <Award size={32} />}

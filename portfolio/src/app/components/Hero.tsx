@@ -49,7 +49,7 @@ function Hero()  {
         </div>
 
          <div className="relative z-10 w-full max-w-md mx-auto aspect-square bg-slate-900 rounded-full rotate-3 shadow-2xl shadow-violet-900/50 flex items-center justify-center overflow-hidden border border-white/10 group-hover:rotate-0 transition duration-700 ease-out">
-              {/* Replace the src below with your actual profile picture URL */}
+              
               <img 
                 src="photo\mypic.jpg" 
                 alt="Deborah Teta"

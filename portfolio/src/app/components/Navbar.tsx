@@ -35,7 +35,7 @@ function Navbar () {
           DT<span className="w-2 h-2 bg-gradient-to-r from-violet-500 to-fuchsia-500 rounded-full mt-2"></span>
         </a>
 
-        {/* Desktop Nav */}
+    
         <div className="hidden md:flex items-center gap-8">
           {navLinks.map((link) => (
             <a 
@@ -49,7 +49,7 @@ function Navbar () {
           ))}
         </div>
 
-        {/* Mobile Menu Button */}
+        
         <button 
           className="md:hidden text-white"
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
@@ -58,7 +58,7 @@ function Navbar () {
         </button>
       </div>
 
-      {/* Mobile Nav Overlay */}
+      
       {isMobileMenuOpen && (
         <div className="md:hidden absolute top-full left-0 right-0 bg-slate-900 border-b border-slate-800 shadow-xl py-6 px-6 flex flex-col gap-4 animate-in slide-in-from-top-5 duration-200">
            {navLinks.map((link) => (

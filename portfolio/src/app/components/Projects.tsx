@@ -1,10 +1,10 @@
-
+'use client'
 import React from 'react';
 import Image from 'next/image';
 import { PROJECTS } from '../constants';
 import { ExternalLink, Layout, ShoppingBag, FileText } from 'lucide-react';
 
-const Projects: React.FC = () => {
+function Projects () {
   const getIcon = (category: string) => {
     switch(category) {
       case 'E-commerce': return <ShoppingBag size={24} />;
@@ -37,7 +37,7 @@ const Projects: React.FC = () => {
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   />
                 ) : (
-                  // Fallback gradient if image is missing
+            
                   <>
                     <div className={`absolute inset-0 bg-gradient-to-br ${index === 0 ? 'from-violet-900/40 to-indigo-900/40' : index === 1 ? 'from-fuchsia-900/40 to-pink-900/40' : 'from-purple-900/40 to-violet-900/40'} group-hover:scale-105 transition duration-700`}></div>
                     <div className="absolute inset-0 flex items-center justify-center text-white/20 group-hover:text-white/40 transition">
@@ -46,10 +46,10 @@ const Projects: React.FC = () => {
                   </>
                 )}
                 
-                {/* Overlay Gradient for Text Readability (optional for future overlay text, mostly aesthetic here) */}
+                
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 to-transparent opacity-60"></div>
 
-                {/* Category Badge */}
+                
                 <div className="absolute top-4 left-4 bg-slate-950/70 backdrop-blur-md border border-white/10 px-3 py-1 rounded-full text-xs font-semibold text-white shadow-lg z-10 flex items-center gap-2">
                   {getIcon(project.category)}
                   {project.category}

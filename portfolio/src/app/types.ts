@@ -4,6 +4,7 @@ export interface Project {
   link: string;
   tags: string[];
   category: 'Web App' | 'E-commerce' | 'Blog';
+  image?:string
 }
 
 export interface Education {
@@ -27,8 +28,3 @@ export interface ContactInfo {
   location: string;
 }
 
-export interface ChatMessage {
-  role: 'user' | 'model';
-  text: string;
-  isError?: boolean;
-}

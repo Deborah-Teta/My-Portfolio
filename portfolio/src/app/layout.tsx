@@ -4,11 +4,7 @@ import Navbar from '../app/components/Navbar';
 import Footer from '../app/components/Footer';
 import './globals.css';
 
-// In a real Next.js app, you would export metadata here
-// export const metadata = {
-//   title: 'Deborah Teta | Frontend Developer',
-//   description: 'Portfolio of Deborah Teta',
-// }
+
 
 interface RootLayoutProps {
   children: React.ReactNode;
