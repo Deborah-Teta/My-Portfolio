@@ -15,7 +15,7 @@ export const PROJECTS: Project[] = [
   {
     title: "Special Blog",
     description: "A dynamic blog platform demonstrating modern web capabilities. Built with a focus on performance and SEO.",
-    link: "https://my-pahse-two-cpastone.vercel.app/",
+    link: "https://my-pahse-two-cpastone-git-main-deborah-tetas-projects.vercel.app/",
     tags: ["Next.js", "TypeScript", "React", "Tailwind CSS"],
     category: "Blog",
     image: "/photo/blog.png" 
